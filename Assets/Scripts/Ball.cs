@@ -74,8 +74,6 @@ public class Ball : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Entered the collision method. THE FUCK AREn'T YOU WORKINg");
-
         if(transform.position.x > 0)
         {
             ResetBall();
